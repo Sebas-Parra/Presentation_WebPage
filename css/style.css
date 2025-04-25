@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0a0808;
+    background: linear-gradient(90deg, rgba(10, 8, 8, 1) 0%, rgba(31, 33, 33, 1) 62%, rgba(105, 105, 105, 1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Principal-Title{
+    
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.Principal-Title h1{
+    color: beige;
+    font-size: 3rem;
+}
+
+.Principal-content{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.Hello-Iam{
+    position: absolute;
+    background-color: white;
+    opacity: 0.7;
+    margin: 11.4rem 35rem 10rem 0;
+    height: 7.3rem;
+    width: 10rem;
+    padding: 3rem 0 0 2rem;
+}
+
+.Img-me img{
+    border-radius: 10%;
+    margin: 4rem 0 4rem 0;    
+}
+
+/*About me*/
+.About-Me {
+  color: beige;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+/*Projects*/
+.Projects{
+    
+    padding: 3rem 0 3rem 0;
+}
+
+.Projects h2{
+    color: beige;
+    text-align: center;
+}
+
+#Container-Projects{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 3rem 2rem 3rem;
+}
+
+#Container-Projects .book .Project{
+  display: block;
+  text-align: center;
+}
+
+#Container-Projects .book .btn{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#Container-Projects .book img{
+    height: 6rem;
+}
+
+#Container-Projects .cover p{
+    text-align: center;
+}
+
+/*Hobies*/
+.Hobbies-section ul{
+    color: beige;
+    margin-top: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+/*HP-section*/
+.section-hp{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* From Uiverse.io by Yaseen549 */ 
+.cardHP {
+    width: 190px;
+    height: 6rem;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    padding: 1rem 2rem 3rem 2rem;
+   }
+
+/*Programming languages*/
+.Programming-languages ul{
+    color: beige;
+    margin-top: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*More details*/
+.More-Details{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Title-HP{
+    color: beige;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+
+
+
+
+/*Social media*/
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 3rem 0 3rem 0;
+}
+
+/* From Uiverse.io by faxriddin20 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 0.3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: green;
+    transition-duration: 0.3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  
+/*Me-Photo*/
+.Img-me img{
+    height: 25em;
+}
+
+/*cards*/
+/* From Uiverse.io by eslam-hany */ 
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  /*boton Acceso*/
+  .but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .but .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .but svg path {
+    transition: 400ms;
+  }
+  
+  .but:hover {
+    background-color: transparent;
+  }
+  
+  .but:hover .text {
+    color: #181717;
+  }
+  
+  .but:hover svg path {
+    fill: #181717;
+  }
